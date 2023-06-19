@@ -1,0 +1,659 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>EPS-DPP2023 Program</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<style type="text/css">
+BODY { font-family: verdana,arial,helvetica,sans-serif; font-size: 10pt; background-color: #fff; color: #000; margin: 0; -webkit-print-color-adjust:exact; }
+TD { font-family: verdana,arial,helvetica,sans-serif; font-size: 10pt; }
+TH { font-family: verdana,arial,helvetica,sans-serif; font-weight: bold; font-size: 10pt; }
+em { font-style: italic; }
+strong { font-weight: bold; }
+.auto-style1 {
+	margin: 10px;
+	font-family: arial,helvetica,sans-serif;
+	font-size: x-large;
+	font-weight: bold;
+	text-align: center;	
+}
+.date {
+	font-size: 1.3em;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 1em;
+}
+.time-slot {
+	width: 100%;
+	margin-bottom: 2em;
+	border-collapse: collapse;	
+}
+.time-slot th, td {
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	vertical-align: top;
+}
+.time {
+	border: 0;
+	padding: 5px;
+	white-space: nowrap;
+	width: 7em;	
+}
+.session {
+	border-collapse: collapse;
+	width: 100%;
+}
+.session td{
+	padding: 3px;
+}
+.parallel-session {
+	border-bottom: 0;
+	border-right: 1px #000 solid;
+	background-color: #fff;
+	color: inherit;
+}
+.parallel-session:last-child {
+    border-right: 0;
+}
+.room {
+	text-align: center;
+	font-size: 0.8em;
+	border-bottom: 0;
+	background-color: #87CEEB;
+	color: #000;
+	border-right: 1px #000 solid;
+	font-weight: bold;
+}
+.room:last-child {
+	border-right: 0;
+}
+.title {
+	font-size: 1.1em;
+	font-weight: bold;
+	border-bottom: 0;
+	text-align: center;
+	color: inherit;
+}
+.chair {
+	display: block;
+	border-bottom: 1px dashed #000;
+	font-style: italic;
+	font-weight: bold;
+}
+.paper {
+	display: block;	
+}
+.author {
+	display: block;
+	font-style: italic;	
+}
+</style>
+</head>
+
+<body>
+<div class="auto-style1">49<sup>th</sup> EPS conference on Plasma Physics<br><br>Program<br></div>
+
+<!--Main body-->
+<div style="margin-left: 30px; margin-right: 30px;">
+<br />
+
+<div class="date">Sunday, 2 July 2023</div>
+<table class="time-slot">
+   <tr><td class="time">17:00-19:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Welcome Reception</span></td></tr>
+       </table></td>
+   </tr>
+</table>
+
+<div class="date">Monday, 3 July 2023</div>
+<table class="time-slot">
+   <tr><td class="time">9:00-9:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Opening Ceremony</span><span class="chair">Session Chair: K. Cromb<span lang="fr">é</span></span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">9:30-10:10</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Alfv<span lang="fr">è</span>n Prize lecture</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:10-10:40</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:40-12:40</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Plenary Session I</span>
+                                                                    <span class="chair">Session Chair: S. Le Pape</span>
+                                                                    <a href="./pdf/I1.002.pdf">I1.002</a>: Isotope physics of heat and particle transport with tritium in JET-ILW H-mode plasmas</span><span class="author">P. Schneider</span>
+                                                                    <a href="./pdf/I1.003.pdf">I1.003</a>: Particle acceleration in astrophysical, magnetized turbulent plasmas</span><span class="author">M. Lemoine</span>
+                                                                    <a href="./pdf/I1.004.pdf">I1.004</a>: Ignition in the laboratory at NIF and routes to higher compression</span><span class="author">D. Casey</span>
+           </td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">12:40-14:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Lunch break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">14:00-16:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #F4A460;" colspan="100"><span class="title">Poster Session I</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:00-16:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:30-18:30</td>
+       <td><table class="session">
+           <tr><td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">BSAP</td>
+               <td class="room" style="width: 25%">LTDP</td>
+               <td class="room" style="width: 25%">BPIF</td>
+            </tr>
+            <tr><td class="parallel-session" width="25%"><span class="title">MCF</span><span class="chair">Session Chair: S. Pinches</span>
+                                <a href="./pdf/I1.101.pdf">I1.101</a>: MAST Upgrade Results Towards Integrating High Core Confinement and Divertor Power Dissipation</span><span class="author">J. Harrison</span>
+                                <a href="./pdf/I1.102.pdf">I1.102</a>: Development of long pulse high performance plasmas towards ITER and CFETR steady- state operation on EAST</span><span class="author">J. Qian</span>
+                                <a href="./pdf/I1.103.pdf">I1.103</a>: Turbulence prevents core particle depletion in stellarators</span><span class="author">H. Thienpondt</span>
+                                <a href="./pdf/I1.104.pdf">I1.104</a>: Modelling of Vertical Displacement Events in tokamaks: status and challenges ahead</span><span class="author">J. Artola</span>
+                 </td>
+                 <td class="parallel-session" width="25%"><span class="title">Astrophysical plasmas</span><span class="chair">Session Chair: C. Pfrommer</span>
+                                 <a href="./pdf/I1.201.pdf">I1.201</a>: Dynamics of IntraCluster Plasma: Transitioning to the New Era of High-resolution X-ray Spectroscopy</span><span class="author">I. Zhuravleva</span>
+                                 <a href="./pdf/I1.202.pdf">I1.202</a>: How, where and when do cosmic rays reach ultrahigh energies?</span><span class="author">J. Matthews</span>
+                                 <a href="./pdf/O1.201.pdf">O1.201</a>: The decay of MHD turbulence and the primordial origin of magnetic fields in cosmic voids 
+				 <strong><em>(PhD Research Award)</em></strong></span><span class="author">D. Hosking</span>
+                                 <a href="./pdf/O1.202.pdf">O1.202</a>: The mechanism of efficient electron acceleration at parallel non-relativistic electron-ion shocks</span><span class="author">M. Shalaby</span>
+                                 <a href="./pdf/O1.203.pdf">O1.203</a>: Particle acceleration at ultrarelativistic shocks in gammay-ray burst outflows</span><span class="author">J.G. Kirk</span>
+                                 <a href="./pdf/O1.204.pdf">O1.204</a>: A Paraxial Investigation of Resistive Relativistic Jet Dynamics</span><span class="author">A. Loules</span>
+                 </td>
+                 <td class="parallel-session" width="25%"><span class="title">Magnetized low-temperature plasmas</span><span class="chair">Session Chair: S. Tsikata</span>
+                                 <a href="./pdf/I1.301.pdf">I1.301</a>: Adpative low-temperature plasmas</span><span class="author">M. Keidar</span>
+                                 <a href="./pdf/I1.302.pdf">I1.302</a>: Kinetic modeling of the plasma-wall interaction in the divertor region</span><span class="author">F. Cichocki</span>
+                                 <a href="./pdf/O1.301.pdf">O1.301</a>: Numerical and experimental investigations of a linear microwave plasma source for metal foil pumps for DEMO</span><span class="author">S. Merli</span>
+                                 <a href="./pdf/O1.302.pdf">O1.302</a>: Toroidal helicon plasma generation in TORPEX</span><span class="author">S. Vincent</span>
+                                 <a href="./pdf/O1.303.pdf">O1.303</a>: Role of ion magnetisation on the self-bias / floating potential in low-temperature plasma within a magnetic field up to 0.5T</span><span class="author">P. Hiret</span>
+                                 <a href="./pdf/O1.304.pdf">O1.304</a>: Transport barriers and anomalous diffusion in a strongly magnetized, low-temperature plasma in the MDPX device</span><span class="author">E. Thomas</span>
+                                 <a href="./pdf/O1.305.pdf">O1.305</a>: Operation and stability of an emissive cathode in a high density plasma</span><span class="author">F. Pagaud</span>
+                 </td>
+                 <td class="parallel-session" width="25%"><span class="title">ICF</span><span class="chair">Session Chair: R. Florido</span>
+                                 <a href="./pdf/I1.401.pdf">I1.401</a>: Effect of Strongly Magnetized Electrons and Ions on Heat Flow and Symmetry of Inertial Fusion Implosions</span><span class="author">A. Bose</span>
+                                 <a href="./pdf/I1.402.pdf">I1.402</a>: Magnetized cylindrical plasma implosion experiments at OMEGA, NIF and LMJ laser facilities.</span><span class="author">M. Bailly-Grandvaux</span>
+                                 <a href="./pdf/I1.403.pdf">I1.403</a>: Neutron Spectroscopy and Suprathermal Ion Distributions in Burning Plasmas</span><span class="author">B. Appelbe</span>
+                                 <a href="./pdf/I1.404.pdf">I1.404</a>: Recent Progress in Cryogenic Direct-Drive Inertial Confinement Fusion on OMEGA</span><span class="author">V. Gopalaswamy</span>
+                 </td>
+            </tr></table>
+       </td>
+   </tr>
+</table>
+
+<div class="date">Tuesday, 4 July 2023</div>
+<table class="time-slot">
+   <tr><td class="time">8:50-9:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Innovation Prize lecture</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">9:30-10:10</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Pleanary Session II</span>
+                                                                    <span class="chair">Session Chair: tbd</span>
+                                                                    <a href="./pdf/I2.002.pdf">I2.002</a>: Interchange magnetic reconnection as the driver of the fast solar wind</span><span class="author">J.F. Drake</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:10-10:40</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:40-12:40</td>
+       <td><table class="session">
+           <tr><td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">BSAP</td>
+               <td class="room" style="width: 25%">LTDP</td>
+               <td class="room" style="width: 25%">BPIF</td>
+            </tr>
+            <tr><td class="parallel-session" width="25%"><span class="title">Turbulence and transport</span><span class="chair">Session Chair: P. Schneider</span>
+                                                         <a href="./pdf/I2.101.pdf">I2.101</a>: Confinement, turbulence and flow sensitivity to plasma current in tokamak plasmas</span><span class="author">L. Vermare</span>
+                                                         <a href="./pdf/I2.102.pdf">I2.102</a>: Prediction of core kinetic profiles and burning plasma performance with high- fidelity gyrokinetic simulations in tokamaks</span><span class="author">P. Rodriguez-Fernandez</span>
+                                                         <a href="./pdf/I2.103.pdf">I2.103</a>: Theory based scaling law of the L-mode and H-mode tokamak density limits and experimental validation</span><span class="author">M. Giacomin</span>
+                                                         <a href="./pdf/O2.101.pdf">O2.101</a>: Non-linear gyro-kinetic Ion Temperature Gradient and Trapped Electron Modes turbulence modelling in X-point geometry with Resonant Magnetic Perturbations</span><span class="author">M. Becoulet</span>
+                                                         <a href="./pdf/O2.102.pdf">O2.102</a>: Two-dimensional ne and Te measurements of the edge plasma turbulence in TJ-II</span><span class="author">E. de la Cal</span>
+                </td>
+                <td class="parallel-session" width="25%"><span lang="fr"><span class="title">
+				Laboratory plasmas</span></span><span class="chair">Session 
+				Chair: <span lang="fr">M. Lemoine</span></span>
+                                                         <a href="./pdf/I2.201.pdf">I2.201</a>: Electron holes in phase space: Recent Theory and Observation</span><span class="author">I. Hutchinson</span>
+                                                         <a href="./pdf/O2.201.pdf">O2.201</a>: Axion production in strongly magnetized plasmas</span><span class="author">H. Ter<span lang="fr">ç</span>as</span>
+                                                         <a href="./pdf/O2.202.pdf">O2.202</a>: Acceleration mechanisms in extreme photon-plasma interactions</span><span class="author">J.C. Faure</span>
+                                                         <a href="./pdf/O2.203.pdf">O2.203</a>: Thermal equilibrium of non-neutral plasma in a magnetic dipole trap</span><span class="author">P. Steinbrunner</span>
+                                                         <a href="./pdf/O2.204.pdf">O2.204</a>: Collision rates estimated from exact N-body simulations</span><span class="author">E. Gravier</span>
+                                                         <a href="./pdf/O2.205.pdf">O2.205</a>: Beyond resonance broadening and quasilinear theory: towards Kubo &gt;1</span><span class="author">A. Guillevic</span>
+                                                         <a href="./pdf/O2.206.pdf">O2.206</a>: Experimental study of energetic electrons in magnetic islands in DIII-D</span><span class="author">E.G. Kostadinova</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">Plasmas for nanotechnology</span><span class="chair">Session Chair: A. Borras</span>
+                                                         <a href="./pdf/I2.301.pdf">I2.301</a>: Plasma technologies as a multipurpose toolbox for metal oxide nanosystem growth and tailoring</span><span class="author">C. Maccato</span>
+                                                         <a href="./pdf/I2.302.pdf">I2.302</a>: Plasma-synthesized nanostructured and functional films</span><span class="author">U. Cvelbar</span>
+                                                         <a href="./pdf/O2.301.pdf">O2.301</a>: Recent results on the development of advanced plasma-assisted vacuum deposition</span><span class="author">F. Aparicio</span>
+                                                         <a href="./pdf/O2.302.pdf">O2.302</a>: Method to estimate the process parameters for plasma-enhanced atomic layer deposition using deep learning techniques</span><span class="author">Y. Yook</span>
+                                                         <a href="./pdf/O2.303.pdf">O2.303</a>: Towards the (bio)-synthesis of carbon nanostructures: understanding the decomposition of CO2 in a microwave plasma at atmospheric pressure</span><span class="author">A. Cobos-Luque</span>
+                                                         <a href="./pdf/O2.304.pdf">O2.304</a>: Atmospheric-pressure microwave Ar/N2 afterglow for heat-sensitive surface treatment</span><span class="author">N. Romero-Amario</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">BPIF</span><span class="chair">Session Chair: A. Debayle</span>
+                                                         <a href="./pdf/I2.401.pdf">I2.401</a>: Ab-initio description of Warm Dense Matter</span><span class="author">T. Dornheim</span>
+                                                         <a href="./pdf/I2.402.pdf">I2.402</a>: Ultrafast dynamics of relativistic electron heating in high-power laser-produced solid-density matter</span><span class="author">H. Sawada</span>
+                                                         <a href="./pdf/O2.401.pdf">O2.401</a>: Influence of the solid-to-plasma transition on the laser energy deposition in targets and subsequent hydrodynamics for direct drive inertial confinement fusion</span><span class="author">R. Liotard</span>
+                                                         <a href="./pdf/O2.402.pdf">O2.402</a>: Experimental investigation of SiO2 foam-filled hohlraums for inertial fusion</span><span class="author">S. Iaquinta</span>
+                                                         <a href="./pdf/O2.403.pdf">O2.403</a>: Optimization of Polar Direct Drive Illumination for Mega-Joule Laser Facilities</span><span class="author">D. Barlow</span>
+                                                         <a href="./pdf/O2.404.pdf">O2.404</a>: Simulations on the contribution of avalanche effect to gain generation from p-B11 fusion</span><span class="author">C. Daponta</span>
+                 </td>
+            </tr></table>
+       </td>
+   </tr>
+   <tr><td class="time">12:40-14:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Lunch break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">14:00-16:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #F4A460;" colspan="100"><span class="title">Poster Session II</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:00-16:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:30-18:30</td>
+       <td><table class="session">
+           <tr><td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">BSAP</td>
+               <td class="room" style="width: 25%">joint MCF/LTDP</td>
+               <td class="room" style="width: 25%">MCF</td>
+            </tr>
+            <tr><td class="parallel-session" width="25%"><span class="title">Disruptions and runaway electrons</span><span class="chair">Session Chair: F. Felici</span>
+                                                         <a href="./pdf/I2.104.pdf">I2.104</a>: Disruption avoidance and investigation of the H-Mode density limit in ASDEX Upgrade</span><span class="author">B. Sieglin</span>
+                                                         <a href="./pdf/I2:105.pdf">I2:105</a>: Benign Termination of RE Beams on ASDEX Upgrade and TCV</span><span class="author">U. Sheikh</span>
+                                                         <a href="./pdf/I2.106.pdf">I2.106</a>: Runaway electron dynamics in shattered pellet mitigated ITER disruptions</span><span class="author">I. Pusztai</span>
+                                                         <a href="./pdf/O2.103.pdf">O2.103</a>: Shattered Pellet Injection experiments at ASDEX-Upgrade for design optimisation of the ITER Disruption Mitigation System</span><span class="author">S. Jachmich</span>
+                                                         <a href="./pdf/O2.104.pdf">O2.104</a>: Magnetic measurements of disruption forces on COMPASS</span><span class="author">V. Yanovskiy</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title"><label for="sessionTitle24">Laboratory plasmas</label></span><span class="chair">Session Chair: C. Kurantz</span>
+                                                         <a href="./pdf/I2.202.pdf">I2.202</a>: From microscale physics to astrophysical-scale effects: Using experiments on Omega and the NIF to unravel the enduring enigma of astrophysical collisionless shocks</span><span class="author">G. Swadling</span>
+                                                         <a href="./pdf/O2.207.pdf">O2.207</a>: Laser-driven ion and electron acceleration from near-critical density gas targets</span><span class="author">V. Ospina-Bohorquez</span>
+                                                         <a href="./pdf/O2.208.pdf">O2.208</a>: Stellar opacities in the laboratory using a high intensity laser</span><span class="author">H. Lahmar</span>
+                                                         <a href="./pdf/O2.209.pdf">O2.209</a>: Generalized multi-temperature Zhdanov closure for the calculation of plasma transport coefficients</span><span class="author">M. Raghunathan</span>
+                                                         <a href="./pdf/O2.210.pdf">O2.210</a>: The electron cyclotron maser instability in laser ionised plasmas</span><span class="author">T. Silva</span>
+                                                         <a href="./pdf/O2.211.pdf">O2.211</a>: Probing ultra-fast ionization and homogenization of near-critical density foams at relativistic intensities at the HED/HiBEF instrument</span><span class="author">A. Laso Garcia</span>
+                                                         <a href="./pdf/O2.212.pdf">O2.212</a>: Collective Radiation Reaction in an Electron-Positron Bunch and Laser Collision</span><span class="author">M.J. Quin</span>
+                </td>
+                <td class="parallel-session" width="25%"><span lang="fr"><span class="title"><label for="sessionTitle25">
+				Plasma-materials physics</label></span></span><span class="chair">Session Chair: H. Reimerdes</span>
+                                                         <a href="./pdf/I2.303.pdf">I2.303</a>: Modeling of molecular kinetics in plasmas</span><span class="author">A. Laricchiuta</span>
+                                                         <a href="./pdf/O2.305.pdf">O2.305</a>: From surface production to extraction in negative hydrogen ion sources</span><span class="author">Ch. Wimmer</span>
+                                                         <a href="./pdf/O2.306.pdf">O2.306</a>: EFISH and LIF diagnostics of dielectric barrier discharge used for atomization of tin hydride</span><span class="author">M. Mrkvivkov&aacute;</span>
+                                                         <a href="./pdf/I2.304.pdf">I2.304</a>: Liquid tin interaction with deuterium plasmas</span><span class="author">A. Manhard</span>
+                                                         <a href="./pdf/I2.305.pdf">I2.305</a>: The physics of the MAST-Upgrade Super-X divertor</span><span class="author">K. Verhaegh</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title"><label for="sessionTitle26">Stellarators</label></span><span class="chair">Session Chair: S. Henneberg</span>
+                                                         <a href="./pdf/I2.107.pdf">I2.107</a>: Validation of pellet deposition physics by simulation/experiment comparisons on helical devices</span><span class="author">N. Panadero</span>
+                                                         <a href="./pdf/I2.108.pdf">I2.108</a>: From the Helically Symmetric eXperiment to a High Field Stellarator Fusion Power Plant</span><span class="author">B. Geiger</span>
+                                                         <a href="./pdf/O2.105.pdf">O2.105</a>: A new quasi-isodynamic stellarator configuration with good fast-ion confinement and reduced turbulent transport</span><span class="author">E. S&aacute;nchez</span>
+                                                         <a href="./pdf/O2.106.pdf">O2.106</a>: Density control with the water-cooled divertor in Wendelstein 7-X stellarator</span><span class="author">G. Schlisio</span>
+                                                         <a href="./pdf/O2.107.pdf">O2.107</a>: Time-scale dependence of turbulence and heat pulse propagation velocity</span><span class="author">N. Kenmochi</span>
+                                                         <a href="./pdf/O2.108.pdf">O2.108</a>: Drift effects in the scrape-off layer of the W7-X stellarator</span><span class="author">M. Kriete</span>
+                </td>
+            </tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">18:30-18:45</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   <tr><td class="time">18:45-19:45</td>
+       <td><table class="session">
+           <tr><td style="background-color: #C0C0C0;" colspan="100"><span class="title">Town Hall meeting</span></td></tr>
+       </table></td>
+   </tr>
+</table>
+
+<div class="date">Wednesday, 5 July 2023</div>
+<table class="time-slot">
+   <tr><td class="time">8:50-10:10</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Pleanary Session III</span>
+                                                                    <span class="chair">Session Chair: tbd</span>
+                                                                    <a href="./pdf/I3.001.pdf">I3.001</a>: Formation and dynamics of the solar wind: new measurements from the inner solar system</span><span class="author">T.S. Horbury</span>
+                                                                    <a href="./pdf/I3.002.pdf">I3.002</a>: Modeling of reactive plasmas for gas conversion</span><span class="author">J. van Dijk</span>
+           </td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:10-10:40</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:40-12:40</td>
+       <td><table class="session">
+           <tr><td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">BSAP</td>
+               <td class="room" style="width: 25%">LTDP</td>
+               <td class="room" style="width: 25%">BPIF</td>
+           </tr>
+           <tr><td class="parallel-session" width="25%"><span class="title">Scenario development</span><span class="chair">Session Chair: T. Bolzonella</span>
+                                                        <a href="./pdf/I3.101.pdf">I3.101</a>: Progress in the ITER baseline scenario development on TCV</span><span class="author">B. Labit</span>
+                                                        <a href="./pdf/I3.102.pdf">I3.102</a>: Long sustained highly peaked ion temperature with internal transport barrier in KSTAR</span><span class="author">H. Han</span>
+                                                        <a href="./pdf/I3.103.pdf">I3.103</a>: Recent Experiments and Simulations to Develop Intrinsically Non-ELMing Enhanced Confinement Regimes</span><span class="author">D.E. Ernst</span>
+                                                        <a href="./pdf/O3.101.pdf">O3.101</a>: Model based formation of Advanced Tokamak discharges</span><span class="author">R. Schram</span>
+                                                        <a href="./pdf/O3.102.pdf">O3.102</a>: First global simulations of ITER 15MA Q=10 baseline scenario with D and T treated separately in the SOL/divertor</span><span class="author">F. Eriksson</span>
+                                                        <a href="./pdf/O3.103.pdf">O3.103</a>: Stationary ELM-free H-mode in ASDEX Upgrade 
+			   <strong><em>(PhD Research Award)</em></strong></span><span class="author">L. Gil</span>
+               </td>
+               <td class="parallel-session" width="25%"><span class="title">Space plasmas</span><span class="chair">Session Chair: O. Alexandrova</span>
+                                                        <a href="./pdf/I3.201.pdf">I3.201</a>: New Insights into Turbulence-Driven Magnetic Reconnection from NASA MMS</span><span class="author">J. Stawarz</span>
+                                                        <a href="./pdf/I3.202.pdf">I3.202</a>: Kinetic processes in fast collisionless plasma flows</span><span class="author">O. Le Contel</span>
+                                                        <a href="./pdf/O3.201.pdf">O3.201</a>: Flux Ropes, Turbulence, and Collisionless Perpendicular Shock Waves</span><span class="author">G.P. Zank</span>
+                                                        <a href="./pdf/03.202.pdf">03.202</a>: Kappa approach of the electron beam instabilities at the origin of radio emissions</span><span class="author">M. Lazar</span>
+                                                        <a href="./pdf/O3.203.pdf">O3.203</a>: Modelling Space Plasma in the Inner heliosphere and its impact on Earth Magnetosphere</span><span class="author">B. Vaidya</span>
+                                                        <a href="./pdf/O3.204.pdf">O3.204</a>: Evolution of nonlinear electrostatic structures in the lunar wake region</span><span class="author">K. Singh</span>
+                                                        <a href="./pdf/O3.205.pdf">O3.205</a>: Nonlinear structures in the Martian magnetosheath</span><span class="author">S.S. Varghese</span>
+               </td>
+               <td class="parallel-session" width="25%"><span class="title">Low-temperature plasma modeling</span><span class="chair">Session Chair: J. van Dijk</span>
+                                                        <a href="./pdf/I3.301.pdf">I3.301</a>: Plasma-Surface Interactions in Atomic Layer Processing</span><span class="author">D. Graves</span>
+                                                        <a href="./pdf/O3.301.pdf">O3.301</a>: Secondary electron emission from surfaces at very low impact energies</span><span class="author">F. Bronold</span>
+                                                        <a href="./pdf/O3.302.pdf">O3.302</a>: Modeling Thermal Ionization in Hypersonic Shock Tubes</span><span class="author">G. Colonna</span>
+                                                        <a href="./pdf/O3.303.pdf">O3.303</a>: Computational Fluid Dynamics modelling of a microwave plasma torch for the synthesis of graphene</span><span class="author">N. Mendoza</span>
+                                                        <a href="./pdf/O3.304.pdf">O3.304</a>: Disclosed formation and role of electrostatic waves through 3D PIC simulation of High Stability Microwave Discharge Ion Source</span><span class="author">L. Neri</span>
+                                                        <a href="./pdf/O3.305.pdf">O3.305</a>: FENNECS: a flexible code to simulate non-neutral plasmas trapped in Penning-like annular potential wells</span><span class="author">G. Le Bars</span>
+                                                        <a href="./pdf/O3.306.pdf">O3.306</a>: Hydrodynamic simulations of plasma devices for compact particle-accelerator applications</span><span class="author">G. Boyle</span>
+                                                        <a href="./pdf/O3.307.pdf">O3.307</a>: Radiative transfer simulations for in-situ diagnostic of reactive, particle growing plasmas</span><span class="author">J. Kobus</span>
+               </td>
+               <td class="parallel-session" width="25%"><span class="title">Ultra-intense laser-plasma interaction</span><span class="chair">Session Chair: J. Metzkes-Ng</span>
+                                                        <a href="./pdf/I3.401.pdf">I3.401</a>: Generating electron-positron plasma in QED avalanches with ultra-high intensity lasers</span><span class="author">A. Mironov</span>
+                                                        <a href="./pdf/I4.402.pdf">I4.402</a>: Ion acceleration via RPA</span><span class="author">S. Kar</span>
+                                                        <a href="./pdf/O3.401.pdf">O3.401</a>: High precision probing of laser-solid interaction with laser-accelerated electron beams</span><span class="author">M. Gilljohann</span>
+                                                        <a href="./pdf/O3.402.pdf">O3.402</a>: Quantum beamstrahlung: a platform to precisely probe strong-field QED</span><span class="author">T. Grismayer</span>
+                                                        <a href="./pdf/O3.403.pdf">O3.403</a>: New helical coil design with controlled dispersion for the post-acceleration and focusing of TNSA protons</span><span class="author">A. Hirsch</span>
+                                                        <a href="./pdf/O3.404.pdf">O3.404</a>: The E332 experiment at FACET-II: harnessing beam-plasma interaction for solid-density electron beams and extremely dense gamma-ray pulses</span><span class="author">A. Matheron</span>
+                                                        <a href="./pdf/O3.405.pdf">O3.405</a>: Positron generation and acceleration in a self-organized photon collider driven by ultra-short petawatt laser-plasma interaction</span><span class="author">K. Sugimoto</span>
+               </td>
+           </tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">12:40-14:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Lunch break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">14:00-18:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Time off</span></td></tr>
+       </table></td>
+   </tr>
+</table>
+
+<div class="date">Thursday, 6 July 2023</div>
+<table class="time-slot">
+   <tr><td class="time">8:50-10:10</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Plenary Session IV</span>
+                                                                    <span class="chair">Session Chair: tbd</span>
+                                                                    <a href="./pdf/I4.001.pdf">I4.001</a>: Results and implications of the TCV plasma exhaust (PEX) upgrade</span><span class="author">H. Reimerdes</span>
+                                                                    <a href="./pdf/I4.002.pdf">I4.002</a>: Plasma polymerization mechanisms: applications and impact on related fields</span><span class="author">D. Hegemann</span>
+           </td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:10-10:40</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:40-12:40</td>
+       <td><table class="session">
+           <tr><td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">LTDP</td>
+               <td class="room" style="width: 25%">BPIF</td>
+           </tr>
+           <tr><td class="parallel-session" width="25%"><span class="title">Edge 
+			   <span lang="fr">&amp; divertor </span>physics, plasma-wall interactions</span><span class="chair">Session Chair: A. Hakola</span>
+                                                        <a href="./pdf/I4.101.pdf">I4.101</a>: Compact radiative divertor experiments at ASDEX Upgrade and their consequences for a reactor</span><span class="author">T. Lunt</span>
+                                                        <a href="./pdf/I4.102.pdf">I4.102</a>: Validated edge and core predictions of tungsten erosion and transport in JET ELMy H- mode plasmas</span><span class="author">H. Kumpulainen</span>
+                                                        <a href="./pdf/I4.103.pdf">I4.103</a>: Investigating Negative-Triangularity Configurations as a Reactor Relevant Solution in the TCV Tokamak</span><span class="author">O. F<span lang="fr">é</span>vrier</span>
+                                                        <a href="./pdf/O4.101.pdf">O4.101</a>: Experimental characterization of divertor filamentary dependencies in TCV and comparison with first-principles turbulence simulations</span><span class="author">C. W&uuml;thrich</span>
+                                                        <a href="./pdf/O4.102.pdf">O4.102</a>: Study of W impurity transport in the boundary plasma of EAST with different divertor conditions</span><span class="author">R. Ding</span>
+               </td>
+               <td class="parallel-session" width="25%"><span class="title">Core MHD and energetic particles</span><span class="chair">Session Chair: P. Rodrigues</span>
+                                                        <a href="./pdf/I4.104.pdf">I4.104</a>: Advanced energetic particle transport models</span><span class="author">M. Falessi</span>
+                                                        <a href="./pdf/I4.105.pdf">I4.105</a>: Clear observation of toroidal AlfvÃ©n eigenmode and cascades driven by alphas during recent JET DT experiments</span><span class="author">M. Fitzgerald</span>
+                                                        <a href="./pdf/O4.103.pdf">O4.103</a>: Nonlinear simulation of energetic particle driven modes in ASDEX-Upgrade</span><span class="author">H. Wang</span>
+                                                        <a href="./pdf/O4.104.pdf">O4.104</a>: Ion temperature gradient mode mitigation by energetic particles, mediated by forced- driven zonal flows</span><span class="author">J.N. Sama</span>
+                                                        <a href="./pdf/O4.105.pdf">O4.105</a>: Resonant axisymmetric modes in tokamak plasmas</span><span class="author">F. Porcelli</span>
+                                                        <a href="./pdf/O4.106.pdf">O4.106</a>: Prediction of energetic particle confinement in ITER operation scenarios</span><span class="author">Z. Lin</span>
+               </td>
+               <td class="parallel-session" width="25%"><span class="title">Plasma processing and plasma chemistry</span><span class="chair">Session Chair: D. Hegemann</span>
+                                                        <a href="./pdf/I4.301.pdf">I4.301</a>: Magnetron Sputter Epitaxy: A Multi-Diagnostic Approach</span><span class="author">A. Hinz</span>
+                                                        <a href="./pdf/I4:302.pdf">I4:302</a>: Multiscale modeling of plasma-surface interactions</span><span class="author">L. Vialetto</span>
+                                                        <a href="./pdf/O4.301.pdf">O4.301</a>: Optimization of a negative oxygen ion beam</span><span class="author">J. Han</span>
+                                                        <a href="./pdf/O4.302.pdf">O4.302</a>: Physics-Informed Advanced Plasma Equipment/Process Control Technologies for Plasma Applications</span><span class="author">J.-S. Yoon</span>
+                                                        <a href="./pdf/O4.303.pdf">O4.303</a>: Hydrogen-Nitrogen Mixed Arc Plasma on Direct toluene conversion into C2 product</span><span class="author">C. Jung</span>
+                                                        <a href="./pdf/O4.304.pdf">O4.304</a>: Water treatment using low temperature plasma with packed bed reactor at atmospheric pressure</span><span class="author">X. Tang</span>
+               </td>
+               <td class="parallel-session" width="25%"><span class="title">Laser-plasma interaction and instabilities</span><span class="chair">Session Chair: G. Lehmann</span>
+                                                        <a href="./pdf/I4.401.pdf">I4.401</a>: Inverse Bremsstrahlung Absorption</span><span class="author">D. Turnbull</span>
+                                                        <a href="./pdf/I4.402.pdf">I4.402</a>: Raman amplification with a 1015 Wcm-2 seed</span><span class="author">J. Shaw</span>
+                                                        <a href="./pdf/O4.401.pdf">O4.401</a>: A steady-state approach to implementing laser-plasma instabilities in hydrodynamics codes</span><span class="author">R. Nutter</span>
+                                                        <a href="./pdf/O4.402.pdf">O4.402</a>: Experimental campaign of laser plasma interaction on Shenguang Octopus laser facility</span><span class="author">L. Zhichao</span>
+                                                        <a href="./pdf/O4.403.pdf">O4.403</a>: Predicting the growth of backward stimulated Brillouin scattering of smoothed laser beams</span><span class="author">C. Ruyer</span>
+               </td>
+           </tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">12:40-14:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Lunch break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">14:00-16:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #F4A460;" colspan="100"><span class="title">Poster Session III</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:00-16:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:30-18:30</td>
+       <td><table class="session">
+           <tr><td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">BSAP</td>
+               <td class="room" style="width: 25%">joint MCF/BSAP</td>
+               <td class="room" style="width: 25%">BPIF</td>
+            </tr>
+            <tr><td class="parallel-session" width="25%"><span class="title">Pedestal physics</span><span class="chair">Session Chair: I. Voitsekhovitch</span>
+                                                         <a href="./pdf/I4.106.pdf">I4.106</a>: Understanding pedestal structure, stability and turbulent transport in D, DT and T plasmas in JET-ILW.</span><span class="author">L. Frassinetti</span>
+                                                         <a href="./pdf/I4.107.pdf">I4.107</a>: H-Isotope Mass Scaling of Multiscale Transport in H-mode Pedestals</span><span class="author">J. Candy</span>
+                                                         <a href="./pdf/I4.108.pdf">I4.108</a>: Improving H-Mode Access and Resilience for ITER Pre-Fusion Operation</span><span class="author">L. Schmitz</span>
+                                                         <a href="./pdf/O4.107.pdf">O4.107</a>: A reduced transport model for microtearing modes in tokamak H-mode pedestal</span><span class="author">M. Hamed</span>
+                                                         <a href="./pdf/O4.108.pdf">O4.108</a>: ELMy H-mode Helium plasma at JET-ILW</span><span class="author">M. Maslov</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">Basic and astrophysical 
+				<span lang="fr">p</span>lasmas</span><span class="chair">Session Chair: T. Passot</span>
+                                                         <a href="./pdf/I4.201.pdf">I4.201</a>: Small-scale reconnection and kinetic instabilities in turbulent space plasmas</span><span class="author">D. Verscharen</span>
+                                                         <a href="./pdf/I4.202.pdf">I4.202</a>: Magnetars: the role of the magnetorotational instability and of the convective dynamo</span><span class="author">J. Guilet</span>
+                                                         <a href="./pdf/O4.201.pdf">O4.201</a>: MHD spectroscopic analysis of the resistive tearing growth rate under the influence of background flow</span><span class="author">J. De Jonghe</span>
+                                                         <a href="./pdf/O4.202.pdf">O4.202</a>: Chaos, Magnetic Fields, and the Cosmic Ray Anisotropy</span><span class="author">V. L&oacute;pez-Barquero</span>
+                                                         <a href="./pdf/O4.203.pdf">O4.203</a>: Coherent radiation via synchrotron cooled electron cyclotron maser emission</span><span class="author">P.J. Bilbao</span>
+                                                         <a href="./pdf/O4.204.pdf">O4.204</a>: Limits on the compression of magnetic islands, a source of synchrotron radiation bursts in PIC simulations of strong-field 3D relativistic magnetic reconnection.</span><span class="author">K.M. Schoeffler</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">Laboratory space 
+				<span lang="fr">&amp;</span> astrophysical plasmas</span><span class="chair">Session Chair: R. Bilato</span>
+                                                         <a href="./pdf/I4.303.pdf">I4.303</a>: Creating Astrophysically Relevant Systems in the Laboratory in the High-Energy-Density Regime</span><span class="author">C. Kuranz</span>
+                                                         <a href="./pdf/I4.304.pdf">I4.304</a>: Energy partition in collisionless shocks: a microphysical perspective</span><span class="author">F. Fiuza</span>
+                                                         <a href="./pdf/I4.305.pdf">I4.305</a>: Similarities between nuclear fusion reactors and space vehicles</span><span class="author">J.P. Gunn</span>
+                                                         <a href="./pdf/I4.306.pdf">I4.306</a>: Nonadiabatic frequency chirping Alfv<span lang="fr">é</span>n mode in fusion plasmas</span><span class="author">X. Wang</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">Diagnostics</span><span class="chair">Session Chair: D. Turnbull</span>
+                                                         <a href="./pdf/I4.403.pdf">I4.403</a>: Signatures of ignition DT fusion gamma reaction history</span><span class="author">V. Geppert-Kleinrath</span>
+                                                         <a href="./pdf/O4.404.pdf">O4.404</a>: X-ray synthetic diagnostics for ICF applications</span><span class="author">F. Barbato</span>
+                                                         <a href="./pdf/O4.405.pdf">O4.405</a>: A spectroscopy method for high-energy photons in intense fields</span><span class="author">K. Fleck</span>
+                                                         <a href="./pdf/O4.406.pdf">O4.406</a>: Spatiotemporal beam-plasma instabilities in the ultrarelativistic regime</span><span class="author">Y. Mankovska</span>
+                                                         <a href="./pdf/O4.407.pdf">O4.407</a>: Developing X-Ray Phase-Contrast Imaging for High-Energy Density Hydrodynamics Applications</span><span class="author">V. Bouffetier</span>
+                                                         <a href="./pdf/O4.408.pdf">O4.408</a>: Guided Electromagnetic Discharge Pulses Driven by Short Intense Laser Pulses</span><span class="author">M. Ehret</span>
+                </td>
+            </tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">18:30-19:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">19:30-22:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">ConferenceDinner</span></td></tr>
+       </table></td>
+   </tr>
+</table>
+
+<div class="date">Friday, 7 July 2023</div>
+<table class="time-slot">
+   <tr><td class="time">8:50-10:10</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Plenary Session V</span>
+                                                                    <span class="chair">Session Chair: tbd</span>
+                                                                    <a href="./pdf/I5.001.pdf">I5.001</a>: Turbulence-optimized stellarator designs with improved ion confinement</span>
+                                                                    <span class="author">G.T. Roberg-Clark</span>
+                                                                    <a href="./pdf/I5.002.pdf">I5.002</a>: Novel approach toward Inertial Confi<span lang="fr">ne</span>ment Fusion</span>
+                                                                    <span class="author">R. Scott</span>
+           </td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:10-10:40</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">10:40-12:40</td>
+       <td><table class="session">
+           <tr><td class="room" style="width: 25%">MCF</td>
+               <td class="room" style="width: 25%">BSAP</td>
+               <td class="room" style="width: 25%">LTDP</td>
+               <td class="room" style="width: 25%">BPIF</td>
+            </tr>
+            <tr><td class="parallel-session" width="25%"><span class="title">Heating &amp; current drive and innovative data analysis techniques</span><span class="chair">Session Chair: J. Hillairet</span>
+                                                         <a href="./pdf/I5.101.pdf">I5.101</a>: Improving physical understanding and plasma performances with extensive experimental data analyses in WEST</span><span class="author">J. Morales</span>
+                                                         <a href="./pdf/O5.101.pdf">O5.101</a>: Real-time control of NBI fast ions, current-drive and heating properties</span><span class="author">M. Weiland</span>
+                                                         <a href="./pdf/O5.102.pdf">O5.102</a>: Digital twin of tokamak diagnostics for heat exhaust and confinement prediction</span><span class="author">A. Medvedeva</span>
+                                                         <a href="./pdf/O5.103.pdf">O5.103</a>: Latest High-Power Helicon Experimental Results from DIII-D</span><span class="author">R. Pinsker</span>
+                                                         <a href="./pdf/O5.104.pdf">O5.104</a>: ICRF wave propagation and absorption modelling via machine learning</span><span class="author">A. S&aacute;nchez Villar</span>
+                                                         <a href="./pdf/O5.105.pdf">O5.105</a>: Performance of the ECRH system of Wendelstein 7-X with regard to long pulse operation and high performance plasmas in the campaign OP2.1</span><span class="author">T. Stange</span>
+                                                         <a href="./pdf/O5.106.pdf">O5.106</a>: Parameterisation of Microwave Beam Broadening by Plasma Density Turbulence</span><span class="author">L. Holland</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">Laboratory astrophysics</span><span class="chair">Session Chair: C. Palmer</span>
+                                                         <a href="./pdf/I5.201.pdf">I5.201</a>: Direct measurement of non-thermal electron acceleration from magnetically driven reconnection in a laboratory plasma</span><span class="author">L. Gao</span>
+                                                         <a href="./pdf/O5.201.pdf">O5.201</a>: Laboratory Plasma Astrophysics at CERN</span><span class="author">C.D. Arrowsmith</span>
+                                                         <a href="./pdf/O5.202.pdf">O5.202</a>: Magnetized collisionless shock experiments, using a pulsed power driven magnetic piston from an exploding wire array</span><span class="author">L.G. Suttle</span>
+                                                         <a href="./pdf/O5.203.pdf">O5.203</a>: Supersonic radiation wave in doped low-density foam</span><span class="author">G. Malamud</span>
+                                                         <a href="./pdf/O5.204.pdf">O5.204</a>: Ponderomotive Recoil for Electromagnetic Waves</span><span class="author">I.E. Ochs</span>
+                                                         <a href="./pdf/O5.205.pdf">O5.205</a>: Ultrahigh-Pressure Generation in the Relativistic Transparency Regime in Laser Irradiated Nanowire Arrays</span><span class="author">J.F. Ong</span>
+                                                         <a href="./pdf/O5.206.pdf">O5.206</a>: Adiabatic-radiative shock systems in astrophysical jets: from the gamma-ray sky to the laboratory</span><span class="author">A. Araudo</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">Dusty plasmas</span><span class="chair">Session Chair: M. Pustylnik</span>
+                                                         <a href="./pdf/I5.301.pdf">I5.301</a>: Transition between liquid-like to gas-like states in super critical fluid complex plasmas from the transport transitions</span><span class="author">Y. Feng</span>
+                                                         <a href="./pdf/I5.302.pdf">I5.302</a>: Laser-induced photodetachment for anions and particle (de-)charging diagnostics in low pressure nanoddusty plasmas</span><span class="author">J. Beckers</span>
+                                                         <a href="./pdf/O5.301.pdf">O5.301</a>: Thermal fluctuations of strongly coupled dusty plasmas: a theoretical and experimental study</span><span class="author">A. Dhaka</span>
+                                                         <a href="./pdf/O5.302.pdf">O5.302</a>: Electron sticking of dielectric and metallic surfaces in the plasma sheath</span><span class="author">A. Mengel</span>
+                                                         <a href="./pdf/O5.303.pdf">O5.303</a>: Size evolution and plasma-particle interaction of single MF particles in the plasma sheath</span><span class="author">S. Wohlfahrt</span>
+                                                         <a href="./pdf/O5.304.pdf">O5.304</a>: Experimental observations of fore-wake phenomena in between two charged object in flowing dusty plasmas</span><span class="author">P. Bandyophadhyay</span>
+                </td>
+                <td class="parallel-session" width="25%"><span class="title">Laser-plasma radiation and particle sources</span><span class="chair">Session Chair: E. Gelfer</span>
+                                                         <a href="./pdf/I5.401.pdf">I5.401</a>: Femtosecond electron microscopy of the laser-plasma wakefield</span><span class="author">V. Malka</span>
+                                                         <a href="./pdf/I5.402.pdf">I5.402</a>: Efficient electron acceleration via laser interaction with an overdense plasma wedge</span><span class="author">S. Marini</span>
+                                                         <a href="./pdf/O5.401.pdf">O5.401</a>: Spin-polarized ion beams from laser-plasma interaction 
+				<strong><em>(PhD Research Award)</em></strong></span><span class="author">L. Reichwein</span>
+                                                         <a href="./pdf/O5.402.pdf">O5.402</a>: Gamma photon and electron-positron production on the PETAL laser facility</span><span class="author">F. Brun</span>
+                                                         <a href="./pdf/O5.403.pdf">O5.403</a>: A multi-MeV alpha particle source from proton-Boron fusion reactions using a 10 GW tabletop laser.</span><span class="author">V. Istokskaja</span>
+                </td>
+            </tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">12:40-14:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Lunch break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">14:00-16:00</td>
+       <td><table class="session">
+           <tr><td style="background-color: #F4A460;" colspan="100"><span class="title">Poster Session IV</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:00-16:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Coffee break</span></td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">16:30-17:50</td>
+       <td><table class="session">
+           <tr><td style="background-color: #FFFF00;" colspan="100"><span class="title">Plenary Session V</span>
+                                                                    <span class="chair">Session Chair: C. Riconda</span>
+                                                                    <a href="./pdf/I5.003.pdf">I5.003</a>: Pathways for improving the understanding of species dynamics in low-temperature magnetized plasmas</span>
+                                                                    <span class="author">S. Tsikata</span>
+                                                                    <a href="./pdf/I5.004.pdf">I5.004</a>: Supernovae Remnants and their interaction with external agents in the laboratory: how it structure the ISM</span>
+                                                                    <span class="author">B. Albertazzi</span>
+           </td></tr>
+       </table></td>
+   </tr>
+   <tr><td class="time">17:50-18:30</td>
+       <td><table class="session">
+           <tr><td style="background-color: #fff;" colspan="100"><span class="title">Closing Ceremony</span><span class="chair">Session Chair: K. Cromb<span lang="fr">é</span></span></td></tr>
+       </table></td>
+   </tr>
+</table>
+
+</div><!-- Main body -->
+
+<p>&nbsp;</p>
+</body>
+
+<script>
+$(document).ready(function(){
+                //sélection des lignes qui ont pour class "room"
+                $(".room").after(function() 
+                {
+                                //tableau des salles avec leur couleur
+                                var arr = { "MCF" : "#85C1E9", "BSAP" : "#76D7C4", "LTDP": "#F1948A", "BPIF": "#F7DC6F", "joint MCF/LTDP" : "#C39BD3", "joint LTDP/MCF/BPIF" : "#BB8FCE", };
+                                var currentRow=$(this).closest("tr");
+
+                                //on récupère le texte de la première cellule "td" de la ligne "tr"
+                                var rCell1=currentRow.find("td:eq(0)").text();
+                                //si le texte est dans le tableau associatif, on lui affecte sa couleur
+                                if (rCell1 in arr) currentRow.find("td:eq(0)").css("background-color", arr[rCell1]);
+                                
+                                //et ainsi de suite pour les autres cellules
+                                var rCell2=currentRow.find("td:eq(1)").text();
+                                if (rCell2 in arr) currentRow.find("td:eq(1)").css("background-color", arr[rCell2]);
+                                var rCell3=currentRow.find("td:eq(2)").text();
+                                if (rCell3 in arr) currentRow.find("td:eq(2)").css("background-color", arr[rCell3]);
+                                var rCell4=currentRow.find("td:eq(3)").text();
+                                if (rCell4 in arr) currentRow.find("td:eq(3)").css("background-color", arr[rCell4]);
+                                var rCell5=currentRow.find("td:eq(4)").text();
+                                if (rCell5 in arr) currentRow.find("td:eq(4)").css("background-color", arr[rCell5]);
+                                var rCell6=currentRow.find("td:eq(1)").text();
+                                if (rCell6 in arr) currentRow.find("td:eq(5)").css("background-color", arr[rCell6]);
+
+    });
+  
+
+});
+</script>
+
+</html>
