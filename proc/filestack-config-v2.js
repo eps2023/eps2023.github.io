@@ -2,9 +2,12 @@
 
 window.addEventListener('DOMContentLoaded', function () {
 
-  // My key to the filestack
-  const apikey = 'AwI8zeAXhScenP4YLcivGz';
+  // My key to the filestack (Roger)
+  //const apikey = 'AwI8zeAXhScenP4YLcivGz';
 
+  // EPS  2023 key 
+  const apikey = 'AQ8QnxT5Q6SxHBOiljA17z'; 
+  
   // Init the client 
   const client = filestack.init(apikey);
 
